@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="Eswar Mahalingam — Blue Team / SOC · Detection Engineering · Threat Hunting">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A1F44"/>
+      <stop offset="55%" stop-color="#081833"/>
+      <stop offset="100%" stop-color="#06122A"/>
+    </linearGradient>
+    <linearGradient id="goldfade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C9A227" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#C9A227" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.86" cy="0.1" r="0.75">
+      <stop offset="0%" stop-color="#C9A227" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#C9A227" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1B3560" stroke-width="1" opacity="0.55"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="280" fill="url(#bg)"/>
+  <rect width="1200" height="280" fill="url(#grid)"/>
+  <rect width="1200" height="280" fill="url(#glow)"/>
+
+  <!-- left gold rule -->
+  <rect x="0" y="0" width="6" height="280" fill="#C9A227"/>
+
+  <!-- packet-capture / heartbeat trace: the signature element -->
+  <path d="M 60 218 H 250 L 262 196 L 276 240 L 290 206 L 302 218 H 430 L 442 182 L 456 250 L 470 199 L 482 218 H 640 L 652 204 L 664 232 L 676 218 H 1140"
+        fill="none" stroke="#C9A227" stroke-width="1.8" opacity="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="456" cy="250" r="4" fill="#C9A227"/>
+  <circle cx="456" cy="250" r="9" fill="none" stroke="#C9A227" stroke-width="1" opacity="0.45"/>
+
+  <!-- classification eyebrow -->
+  <text x="60" y="62" font-family="'IBM Plex Mono','SFMono-Regular',Consolas,monospace" font-size="13" fill="#7C89A3" letter-spacing="4.5">CLASSIFICATION: UNCLASSIFIED</text>
+
+  <!-- name -->
+  <text x="60" y="126" font-family="Georgia,'Times New Roman',serif" font-size="60" font-weight="bold" fill="#FFFFFF" letter-spacing="-1">Eswar Mahalingam</text>
+
+  <!-- gold underline -->
+  <rect x="60" y="144" width="420" height="3" fill="url(#goldfade)"/>
+
+  <!-- role line -->
+  <text x="60" y="180" font-family="'IBM Plex Mono','SFMono-Regular',Consolas,monospace" font-size="17" fill="#C9A227" letter-spacing="1.6">Blue Team / SOC  ·  Detection Engineering  ·  Threat Hunting</text>
+
+  <!-- status -->
+  <circle cx="66" cy="207" r="4" fill="#3E8E5A"/>
+  <text x="80" y="212" font-family="'IBM Plex Mono','SFMono-Regular',Consolas,monospace" font-size="12.5" fill="#8E9AB4" letter-spacing="1">STATUS: OPEN TO WORK  ·  IMMEDIATE JOINER  ·  GHAZIABAD, NCR, INDIA</text>
+
+  <!-- right-side shield insignia -->
+  <g transform="translate(1010, 62)" opacity="0.95">
+    <path d="M 60 0 L 116 20 V 74 C 116 112 60 142 60 142 C 60 142 4 112 4 74 V 20 Z"
+          fill="none" stroke="#C9A227" stroke-width="2.2"/>
+    <path d="M 60 14 L 103 29 V 74 C 103 103 60 126 60 126 C 60 126 17 103 17 74 V 29 Z"
+          fill="#C9A227" opacity="0.07"/>
+    <text x="60" y="66" font-family="'IBM Plex Mono',monospace" font-size="26" fill="#C9A227" text-anchor="middle" letter-spacing="1">★</text>
+    <text x="60" y="92" font-family="'IBM Plex Mono',monospace" font-size="10.5" fill="#E8EBF2" text-anchor="middle" letter-spacing="1.4">GRAYSENTINEL</text>
+    <text x="60" y="107" font-family="'IBM Plex Mono',monospace" font-size="8.5" fill="#7C89A3" text-anchor="middle" letter-spacing="1.1">COMMISSIONED</text>
+  </g>
+</svg>
